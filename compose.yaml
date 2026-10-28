@@ -1,6 +1,7 @@
 services:
   app:
-    build: .
+    #build: .
+    image: ghcr.io/liza-dev/workshop:latest
     ports:
       - "8000:8000"
     environment:
